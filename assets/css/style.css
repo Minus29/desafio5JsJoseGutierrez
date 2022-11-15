@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 800px;
+    text-align: center;
+    background-color: #eceff1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.flex-container h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+.form-container input {
+    width: 400px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+#button {
+    background-color: #00701a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.p1 {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totales {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.totales p {
+    padding: 10px;
+}
+
+.tareas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tareas p {
+    padding-right: 100px;
+}
+
+.flex-tarea1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-tareas2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#button2 {
+    border: solid 1px black;
+    background-color: #eceff1;
+    margin-left: 20px;
+}
+
+
+
+
+
+#cbox {
+    margin-left: 20px;
+}
